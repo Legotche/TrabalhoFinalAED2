@@ -394,8 +394,9 @@ void menu(){
         //if(getchar()=='\n'){}else{while(getchar()!='\n');}
 
         printf("\n\n\tDigite a opção desejada:");
-        scanf(" %c",&decisao);
-        if(getchar()=='\n'){}else{while(getchar()!='\n');}
+        decisao=getchar();
+        //scanf(" %c",&decisao);
+        //if(getchar()=='\n'){}else{while(getchar()!='\n');}
 
         switch (decisao) {
 
