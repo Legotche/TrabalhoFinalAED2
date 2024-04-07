@@ -425,13 +425,10 @@ void menu(){
             case '7':     //Buscar livro
                 busca_livro(e);
                 break;
-
             case '8':     //Excluir livro
                 break;
-
             case '0':
                 exit(0);
-
             default:
                 printf("\nCódigo inválido\n");
                 break;
@@ -439,8 +436,8 @@ void menu(){
     }while(1);
 }
 
-
 int main(){
+
     setlocale(LC_ALL,"Portuguese");
 
     menu();
